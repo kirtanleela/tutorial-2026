@@ -6,6 +6,8 @@ import { environment } from './environments/environment';
 
 if (environment.production) {
   enableProdMode();
+}else{
+  // changes requested by viral
 }
 
 platformBrowserDynamic().bootstrapModule(AppModule)
